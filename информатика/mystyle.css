@@ -1,0 +1,27 @@
+body { 
+  color: #800000;
+  background: rgb(255, 250, 205);
+}
+
+h1 {
+  color: #000000
+}
+
+h2 {
+  color: #F0FFFF;
+  background: #800000;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.3em;
+  padding: 5px;
+}
+
+.formula {
+  front-style: italic;A
+  front-weight: bold;
+  text-align: center;
+}
+
+p.definition {
+  border: 1px solid #DC143C;
+  padding: 5px;
+}

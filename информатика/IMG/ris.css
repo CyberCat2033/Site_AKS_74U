@@ -1,0 +1,50 @@
+body {
+background-image: url("images/back.jpg");
+color: #FFFFFF;
+font-style: italic;
+}
+
+.name {
+font-weight: bold;
+font-style: italic;
+color: #FFFFFF;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #B22222;
+}
+
+.parag1 {
+  background: url(images/shnitke.jpg) no-repeat;
+  text-align: left 
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  mardin-top: 0px;
+  mardin-bottom: 10px;
+  mardin-left: 30px;
+  mardin-right: 30px;
+}
+
+.parag2 {
+  background: url(images/beatles.jpg) no-repeat;
+  text-align: right
+  padding-left: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.parag3 {
+  background: url(images/queen.jpg) no-repeat;
+  text-align: left 
+  padding-left: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.parag3 {
+  background: url(images/vysot.jpg) no-repeat;
+  text-align: right 
+  padding-left: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
