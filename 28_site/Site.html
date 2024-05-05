@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta
+      name="Работа Ксении Перец"
+      content="width=device-width"
+    />
+    <meta title="Работа Ксении Перец" />
+    <style>
+        @import url(./styles/style.css);
+        @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <h1>Мультимедиа на веб-странице</h1>
+    <h2>Звуки</h2>
+    <div>
+        Так гудит вертолёт (формат WAV):
+      <audio
+        src="assets/audio/hcopter.wav"
+        controls="controls"
+        autostart="0"
+        autostart="false"
+        preload="none"
+        style="width: 300px; height: 20px; border-radius: 15px;"
+      ></audio>
+    </div>
+  </body>
+  <div>
+    <p>
+      Этот звук сгенерирован с помощью бесплатного сервиса
+      <a href="http://naturesoundsfor.me">http://naturesoundsfor.me</a>:
+    </p>
+  </div>
+
+  <div>
+    формат MP3:
+    <audio
+      src="assets/audio/nature.mp3"
+      controls="controls"
+      autostart="0"
+      autostart="false"
+      preload="none"
+      class="audio"
+    ></audio>
+  </div>
+
+  <div style="margin: 2vw 0% 0% 0%">
+    формат OGG:
+    <audio
+      src="assets/audio/nature.ogg"
+      controls="controls"
+      autostart="0"
+      autostart="false"
+      preload="none"
+      class="audio"
+    ></audio>
+  </div>
+  <br />
+  <h2>Видео</h2>
+
+  <div class="video-container">
+    <p>Ролик с сервиса Youtube:</p>
+    <iframe
+      class="video"
+      src="https://www.youtube.com/embed/jfKfPfyJRdk?si=67Ume6I6bfsUnjrI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="video-container">
+    <p>Видео в формате MP4:</p>
+    <video
+      controls="controls"
+      autoplay="false"
+      width="320"
+      height="240"
+      class="video"
+    >
+      <source
+        src="assets/video/finish.mp4"
+        type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+      />
+    </video>
+  </div>
+
+  <div class="video-container">
+    <p>Видео в формате WebM:</p>
+    <video
+      controls="controls"
+      autoplay="false"
+      width="320"
+      height="240"
+      class="video"
+    >
+      <source
+        src="assets/video/finish.webm"
+        type='video/webm; codecs="vp8, vorbis"'
+      />
+    </video>
+  </div>
+</html>
