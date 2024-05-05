@@ -3,7 +3,102 @@
     padding:0px;
   }
 
+body {
+  background-color: rgba(47, 242, 177, 0.096);
+}
+
+
+
 #header {
     height: 80px;
-    background-image: url("/assets/images/header.jpg");
+    background-image: url("../assets/images/header.png");
+    background-repeat: no-repeat;
+    display: table-header;
+    
+}
+
+#header h1 {
+  font-family: "Handjet", sans-serif;
+  font-size: 240%;
+  padding-top: 15px; 
+  padding-left: 70px
+}
+#header h1::before {
+  content: "ПОСТАВЬТЕ 5  ";
+  background: linear-gradient(45deg, #2277ff 33%, #183759 66%, #003483);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#header h1:hover::before {
+  opacity: 1;
+}
+
+#weather {
+  float: left;
+  width: 140px;
+  padding-left: 10px;
+
+  
+}
+
+#photos {
+  float: right;
+  width: 220px;
+  padding-right: 10px;
+
+  
+}
+#content {
+  padding-left: 140px;
+  padding-right: 220px;
+  padding-top: 8px;
+
+ 
+  
+}
+#footer {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  clear: both;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.5s;
+
+}
+
+#footer:hover{
+  background-color: rgb(73, 255, 209);
+}
+
+
+
+table.weather{
+  width: 98%;
+  max-height: 100px;
+}
+
+
+.rightphoto {
+  float: right;
+  max-height: 100px ;
+  border-radius: 20px;
+  border: solid 1px #eb9e9e;
+}
+.leftphoto {
+  float: left;
+  border-radius: 20px;
+  border: solid 1px #eb9e9e;
+
+
+}
+
+.rightphoto:hover{
+  content: url("../assets/images/image.jpg");
+  
 }
