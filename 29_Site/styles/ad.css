@@ -1,0 +1,13 @@
+table.ad {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  float: right;
+  margin: 10px -100%;
+  margin-left: 20px;
+}
+
+.ad td {
+   margin: 0px auto;
+}

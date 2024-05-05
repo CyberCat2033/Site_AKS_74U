@@ -1,0 +1,42 @@
+.sport {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+.sport th {
+  font-family: "Handjet", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  white-space: pre-wrap;
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 1px solid #000000;
+}
+.sport td {
+  font-size: 13px;
+  color: #000000;
+}
+.sport td.left {
+  text-align: left;
+}
+.sport td {
+  text-align: center;
+  white-space: pre-wrap;
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 1px solid #000000;
+}
+.sport tr:hover {
+  background-color: #f9fafb;
+}
+.sport tr:hover td {
+  color: #f40abd;
+  cursor: default;
+}

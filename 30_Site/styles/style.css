@@ -1,0 +1,9 @@
+* {
+    margin:0px;
+    padding:0px;
+  }
+
+#header {
+    height: 80px;
+    background-image: url("/assets/images/header.jpg");
+}

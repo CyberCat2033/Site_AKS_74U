@@ -1,0 +1,8 @@
+.Sad {
+  width: 100%;
+}
+.Sad td.add_table {
+  background-color: rgb(230, 230, 255);
+  border-radius: 10px;
+  border: 1px #cccccc;
+}

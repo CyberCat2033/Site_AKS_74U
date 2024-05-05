@@ -1,0 +1,26 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+h2{
+    font-family: "Handjet", sans-serif;
+    font-size: 250%;
+}
+
+table {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.leftphoto {
+  float: left;
+  margin: 1% 10px 2px 0px;
+  min-width: 17vw;
+  max-width: 28vw;
+  border-radius: 10%;
+  border: solid 1px #c1a3a3;
+  opacity: 0.98cs;
+}
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="Таблицы: Работа Ксении Перец" content="width=device-width" />
+    <meta title="Работа Ксении Перец" />
+    <style>
+      @import url(./styles/style.css);
+      @import url(./styles/as.css);
+      @import url(./styles/sport.css);
+      @import url(./styles/flowers.css);
+      @import url(./styles/sad.css);
+      @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <h2>Данные в таблицах</h2>
+    <table class="sport">
+      <tbody>
+        <tr>
+          <th rowspan="2">Команда</th>
+          <th colspan="4">Баллы</th>
+          <th rowspan="2">Место</th>
+        </tr>
+        <tr>
+          <th>I тур</th>
+          <th>II тур</th>
+          <th>III тур</th>
+          <th>Итог</th>
+        </tr>
+        <tr>
+          <td class="left">«Ротор»</td>
+          <td>10</td>
+          <td>15</td>
+          <td>8</td>
+          <td>33</td>
+          <th>I</th>
+        </tr>
+        <tr>
+          <td class="left">«Статор»</td>
+          <td>12</td>
+          <td>15</td>
+          <td>3</td>
+          <td>30</td>
+          <th>II</th>
+        </tr>
+        <tr>
+          <td class="left">«Мотор»</td>
+          <td>15</td>
+          <td>10</td>
+          <td>3</td>
+          <td>28</td>
+          <th>III</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="flowers">
+      <tbody>
+        <tr>
+          <th class="header" colspan="3">Гербарий Васисуалия Лоханкина</th>
+        </tr>
+        <tr>
+          <td class="picture">
+            <img src="assets/images/orchidea.gif" alt="Orchidea" />
+          </td>
+          <td class="picture">
+            <img src="assets/images/anuta.gif" alt="Anuta" />
+          </td>
+          <td class="picture">
+            <img src="assets/images/rose.gif" alt="Rose" />
+          </td>
+        </tr>
+        <tr>
+          <td class="note">Орхидея</td>
+          <td class="note">Анютины глазки</td>
+          <td class="note">Роза</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <h2>Табличная верстка</h2>
+    <table class="Sad">
+      <tbody>
+        <tr>
+          <td>
+            <div>
+              <h4 style="text-align: left">Юлий цезарь</h4>
+              <img
+                class="leftphoto"
+                src="assets/images/ceasar.jpg"
+                alt="Ceasar"
+              />
+              <p style="text-align: justify;">
+                В 44 г. до н.э. Юлий Цезарь, достигнув высшей власти и осыпанный
+                всеми титулами и почестями, которые могла дать республика,
+                провозглашает себя пожизненным диктатором. Сторонники республики
+                убивают Цезаря. Но римляне не поддержали убийц Цезаря, несмотря
+                на все их благородные намерения. Вспыхнула гражданская война, в
+                результате которой Римская республика пала, и Рим стал империей.
+                Цезарь был кумиром для многих политиков будущего, и его слова
+                <em>«Veni. Vedi. Vici« </em>(лат.
+                <em>«Пришел. Увидел. Победил«</em>) стали девизом для многих.
+              </p>
+            </div>
+          </td>
+          <td class="add_table">
+            <table class="add" id="left">
+              <tbody>
+                <tr>
+                  <th><img src="assets/images/salad.jpg" alt="Salad" /></th>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://stepik.org/lesson/658539/step/3?unit=655957"
+                      >Рецепт салата цезарь</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

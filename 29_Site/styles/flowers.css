@@ -1,0 +1,30 @@
+table.flowers td.note {
+  font-size: 13px;
+  color: #800000;
+}
+table.flowers td,
+table.flowers th {
+  white-space: pre-wrap;
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 1px solid #ffffff;
+}
+table.flowers tr:hover {
+  background-color: rgba(248, 195, 195, 0.178);
+}
+table.flowers tr:hover td {
+  color: #0015ff;
+  cursor: default;
+}
+
+.flowers th.header {
+  background-image: url("../assets/images/back.jpg");
+  color: #ffffff;
+  font-style: bold;
+  font-family: "Handjet", sans-serif;
+  font-size: 120%;
+}
+.flowers td.picture {
+  background-image: url("../assets/images/paper.jpg");
+}
